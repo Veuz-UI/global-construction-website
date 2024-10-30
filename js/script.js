@@ -175,6 +175,8 @@
 
             autoplay: true,
 
+            autoplayTimeout: 5000,
+
             navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
 
             responsive: {
@@ -187,13 +189,13 @@
 
                 767: {
 
-                    items: 2
+                    items: 1
 
                 },
 
                 1024: {
 
-                    items: 4
+                    items: 2
 
                 }
 
